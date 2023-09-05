@@ -2,7 +2,7 @@ name: Our Workflow
 on : push
 jobs : 
   cache:
-    runs : ubuntu-latest
+    runs-on : ubuntu-latest
     steps :
       - uses : actions/checkout@v3
       - run : npm ci
